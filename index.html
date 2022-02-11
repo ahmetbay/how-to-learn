@@ -2,30 +2,216 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Научиться учиться</title>
+  <link rel="stylesheet" href="pages/index.css">
 </head>
-<body>
-  <div class="page">
-    <header class="header">
+<body class="root">
 
-    </header>
-    <main class="content">
-      <section class="description">
-      </section>
+  <header class="header">
+    <img src="images/logo.svg" alt="логотип" class="logotype header__logotype" />
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">
+      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+      <a href="#" class="header__link">Узнать &rarr;</a>
+    </p>
+    <img src="images/two_again.png" alt="иллюстрация" class="header__main-illustration">
+    <div class="header__square-pic"></div>
+  </header>
 
-      <section class="digits">
-      </section>
+  <main class="page">
 
-      <section class="feynman">
-      </section>
+    <section class="flex flex_space-between two-columns">
+      <div class="two-columns__title">Главные проблемы в обучении</div>
+      <div class="two-columns__text flex_column">
+        <p>
+          Ни в школе, ни в институте нас не учат тому,
+          как правильно изучать материал. Мы готовимся
+          к экзаменам и учим билеты. Мы тренируемся решать
+          однообразные задачи, чтобы лучше сдать тест, но
+          часто в итоге это не дает нам реального знания.
+          Зубрежка быстро выветривается и не приносит пользы.
+        </p>
+        <p>
+          <span class="bold">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+        </p>
+        <p>
+          Конкретные техники и упражнения помогают изменить
+          подход к обучению, сделать его эффективным и захватывающим.
+          Эти же техники применяются на примере обучения в Практикуме.
+        </p>
+      </div>
+    </section>
 
-      <section class="kaufman">
-      </section>
-    </main>
-    <footer class="footer">
+    <section class="techniques center-block">
+      <h2 class="page__title center-block techniques__title semibold text-center mb-20">Техники обучения</h2>
+      <div class="page__subtitle center-block techniques__subtitle text-center">Про учёбу и мозг</div>
+      <div class="cards row center-block flex flex_wrap">
+        <div class="cards__item text-center">
+          <img src="images/cards-attention.png" class="cards__image" alt="Два вида внимания">
+          <h3 class="cards__title rows__title semibold">Два вида внимания</h3>
+          <p class="cards__description rows__description">
+            Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+          </p>
+        </div>
+        <div class="cards__item text-center">
+          <img src="images/cards-recall.png" class="cards__image" alt="Recall">
+          <h3 class="cards__title rows__title semibold">Recall</h3>
+          <p class="cards__description rows__description">
+            Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+          </p>
+        </div>
+        <div class="cards__item text-center">
+          <img src="images/cards-interliving.png" class="cards__image" alt="Интерливинг">
+          <h3 class="cards__title rows__title semibold">Интерливинг</h3>
+          <p class="cards__description rows__description">
+            Изучайте несколько навыков одновременно, они обогащают друг друга.
+          </p>
+        </div>
+        <div class="cards__item text-center">
+          <img src="images/cards-question.png" class="cards__image" alt="Вопросы">
+          <h3 class="cards__title rows__title semibold">Вопросы</h3>
+          <p class="cards__description rows__description">
+            Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+          </p>
+        </div>
+        <div class="cards__item text-center">
+          <img src="images/cards-competence.png" class="cards__image" alt="Иллюзия компетентности">
+          <h3 class="cards__title rows__title semibold">Иллюзия компетентности</h3>
+          <p class="cards__description rows__description">
+            Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    </footer>
-  </div>
+    <section class="video">
+      <h2 class="page__title center-block semibold text-center mb-20">Видео нa TED</h2>
+      <div class="page__subtitle center-block text-center">Для тех, кто любит прокрастинировать</div>
+      <div class="video__iframes page_width_1100 center-block flex flex_wrap">
+        <div class="video__iframe">
+          <iframe
+            width="515"
+            height="316"
+            src="https://www.youtube.com/embed/arj7oStGLkU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video__iframe">
+          <iframe
+            width="515"
+            height="316"
+            src="https://www.youtube.com/embed/5MgBikgcWnY"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="digits">
+      <h2 class="page__title center-block semibold text-center mb-20">Цифры и факты</h2>
+      <div class="page__subtitle center-block text-center mb-60">Про учёбу и мозг</div>
+      <div class="page_width_1100 center-block flex flex_wrap flex_space-between flex_row-gap_60 rows">
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">86 миллиардов</p>
+          <p class="rows__description">Число нейронов в мозге человека</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">2.1 миллиарда</p>
+          <p>Число нуждающихся в повышении квалификации</p>
+          <p class="rows__description">Всемирный Банк, 2017</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">1000 терабайт</p>
+          <p>Объём памяти человека</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">500 триллионов</p>
+          <p class="rows__description">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">420 миллионов</p>
+          <p class="rows__description">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+          <p class="rows__description">Всемирный Банк, 2017</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">17–20 лет</p>
+          <p class="rows__description">Пик обучаемости</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">1885 год</p>
+          <p class="rows__description">Открытие кривой забывания</p>
+        </div>
+        <div class="digits__item flex_column">
+          <p class="rows__title semibold">1889 год</p>
+          <p class="rows__description">Открытие условного рефлекса</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="center-block kaufman">
+      <h2 class="page__title center-block semibold text-center mb-20">Цифры и факты</h2>
+      <div class="page__subtitle center-block text-center mb-80">Про учёбу и мозг</div>
+      <div class="page_width_1100 center-block flex flex_wrap flex_space-between flex_row-gap_80 rows">
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">1</p>
+          <p>Выберите привлекательный проект.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">2</p>
+          <p>Сосредоточьтесь на каком-то одном навыке.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">3</p>
+          <p>Определите целевой уровень мастерства.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">4</p>
+          <p>Разбейте навык на элементы.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">5</p>
+          <p>Приготовьте всё необходимое для занятий.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">6</p>
+          <p>Устраните препятствия для занятий.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">7</p>
+          <p>Выделите специальное время для занятий.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">8</p>
+          <p>Создайте быстрые петли обратной связи.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">9</p>
+          <p>Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        </div>
+        <div class="kaufman__item">
+          <p class="rows__title semibold mb-20">10</p>
+          <p>Уделяйте внимание количеству и скорости.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources">
+      <h2 class="page__title center-block semibold text-center mb-20">Цифры и факты</h2>
+      <div class="page__subtitle center-block text-center mb-80">Про учёбу и мозг</div>
+      <div class="page_width_1100 center-block flex flex_wrap flex_space-between">
+        <img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="arzamas">
+        <img class="resources__logo" src="images/logo/resources-n1.svg" alt="n1">
+        <img class="resources__logo" src="images/logo/resources-strelka.svg" alt="strelka">
+        <img class="resources__logo" src="images/logo/resources-polka.svg" alt="polka">
+      </div>
+    </section>
+
+  </main>
+  <footer></footer>
 </body>
 </html>

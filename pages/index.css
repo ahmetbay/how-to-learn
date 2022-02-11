@@ -1,0 +1,57 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts.css);
+@import url(../vendors/common.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/flex/flex.css);
+@import url(../blocks/flex/_column/flex_column.css);
+@import url(../blocks/flex/_row-gap/flex_row-gap_60.css);
+@import url(../blocks/flex/_row-gap/flex_row-gap_80.css);
+@import url(../blocks/flex/_space-between/flex_space-between.css);
+@import url(../blocks/flex/_wrap/flex_wrap.css);
+
+@import url(../blocks/rows/rows.css);
+@import url(../blocks/rows/__title/rows__title.css);
+@import url(../blocks/rows/__description/rows__description.css);
+
+@import url(../blocks/logotype/logotype.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logotype/header__logotype.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+
+@import url(../blocks/page/__title/page__title.css);
+@import url(../blocks/page/__subtitle/page__subtitle.css);
+@import url(../blocks/page/_width/page_width_1100.css);
+
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__title/two-columns__title.css);
+@import url(../blocks/two-columns/__text/two-columns__text.css);
+
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/__title/techniques__title.css);
+@import url(../blocks/techniques/__subtitle/techniques__subtitle.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__item/digits__item.css);
+
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__item/kaufman__item.css);
+
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
