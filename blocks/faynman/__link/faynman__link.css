@@ -1,0 +1,13 @@
+.faynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  transform: translate(0, -50%);
+  color: var(--blue-color);
+  line-height: 51px;
+  font-size: 36px;
+  text-decoration: none;
+}
+.faynman__link:hover {
+  text-decoration: underline;
+}

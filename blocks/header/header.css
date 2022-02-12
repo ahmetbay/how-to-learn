@@ -6,4 +6,5 @@
   display: flex;
   align-items: center;
   background-color: var(--gray-color2);
+  overflow: hidden;
 }

@@ -1,6 +1,5 @@
-.kaufman {
-  padding: 90px 0;
+.footer {
+  padding: 60px 0 40px;
   background: var(--gray-color);
   color: var(--white-color);
-  overflow: hidden;
 }

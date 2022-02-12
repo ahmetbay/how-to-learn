@@ -1,0 +1,9 @@
+.footer__column-link {
+  line-height: 18px;
+  font-size: 18px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.footer__column-link:hover {
+  text-decoration: underline;
+}
