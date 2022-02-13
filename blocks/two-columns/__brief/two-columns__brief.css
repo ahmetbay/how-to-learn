@@ -1,0 +1,9 @@
+.two-columns__brief {
+  min-width: 175px;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--blue-color);
+  margin: 0;
+  padding: 0;
+}

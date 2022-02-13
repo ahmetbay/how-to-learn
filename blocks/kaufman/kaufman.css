@@ -1,6 +1,6 @@
 .kaufman {
   padding: 90px 0;
   background: var(--gray-color);
-  color: var(--white-color);
   overflow: hidden;
+  position: relative;
 }

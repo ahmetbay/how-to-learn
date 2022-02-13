@@ -9,22 +9,22 @@
 <body class="root">
 
   <header class="header">
-    <img src="images/logo.svg" alt="логотип" class="logotype logotype_place_header" />
+    <img src="images/logo.svg" alt="логотип" class="logo logo_place_header" />
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-      <a href="#" class="header__link root_arrow-link">Узнать</a>
+      <a href="#" class="header__link">Узнать &rarr;</a>
     </p>
     <img src="images/two_again.png" alt="иллюстрация" class="header__main-illustration">
-    <div class="header__square-pic rotation__spinning-infinite"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
 
   <main class="page">
 
-    <div class="flex flex_justify-content_space-between two-columns">
-      <div class="two-columns__title">Главные проблемы в обучении</div>
-      <div class="two-columns__text flex flex_column">
-        <p>
+    <div class="two-columns">
+      <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+      <div class="two-columns__main-text">
+        <p class="two-columns__paragraph">
           Ни в школе, ни в институте нас не учат тому,
           как правильно изучать материал. Мы готовимся
           к экзаменам и учим билеты. Мы тренируемся решать
@@ -32,10 +32,11 @@
           часто в итоге это не дает нам реального знания.
           Зубрежка быстро выветривается и не приносит пользы.
         </p>
-        <p>
-          <span class="bold">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+        <p class="two-columns__paragraph">
+          <span class="two-columns__span-accent">Вывод:</span>
+          учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
         </p>
-        <p>
+        <p class="two-columns__paragraph">
           Конкретные техники и упражнения помогают изменить
           подход к обучению, сделать его эффективным и захватывающим.
           Эти же техники применяются на примере обучения в Практикуме.
@@ -43,42 +44,42 @@
       </div>
     </div>
 
-    <section class="techniques center-block">
-      <h2 class="page__title center-block techniques__title semibold text-center mb-20">Техники обучения</h2>
-      <div class="page__subtitle center-block techniques__subtitle text-center">Про учёбу и мозг</div>
-      <div class="cards row center-block flex flex_wrap">
-        <div class="cards__item text-center">
+    <section class="techniques">
+      <h2 class="section-title">Техники обучения</h2>
+      <h3 class="section-subtitle">Про учёбу и мозг</h3>
+      <div class="cards">
+        <div class="cards__item">
           <img src="images/cards-attention.png" class="cards__image" alt="Два вида внимания">
-          <h3 class="cards__title rows__title semibold">Два вида внимания</h3>
-          <p class="cards__description rows__description">
+          <h4 class="cards__title">Два вида внимания</h4>
+          <p class="cards__description">
             Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
           </p>
         </div>
-        <div class="cards__item text-center">
+        <div class="cards__item">
           <img src="images/cards-recall.png" class="cards__image" alt="Recall">
-          <h3 class="cards__title rows__title semibold">Recall</h3>
-          <p class="cards__description rows__description">
+          <h4 class="cards__title">Recall</h4>
+          <p class="cards__description">
             Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
           </p>
         </div>
-        <div class="cards__item text-center">
+        <div class="cards__item">
           <img src="images/cards-interliving.png" class="cards__image" alt="Интерливинг">
-          <h3 class="cards__title rows__title semibold">Интерливинг</h3>
-          <p class="cards__description rows__description">
+          <h4 class="cards__title">Интерливинг</h4>
+          <p class="cards__description">
             Изучайте несколько навыков одновременно, они обогащают друг друга.
           </p>
         </div>
-        <div class="cards__item text-center">
+        <div class="cards__item">
           <img src="images/cards-question.png" class="cards__image" alt="Вопросы">
-          <h3 class="cards__title rows__title semibold">Вопросы</h3>
-          <p class="cards__description rows__description">
+          <h4 class="cards__title">Вопросы</h4>
+          <p class="cards__description">
             Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
           </p>
         </div>
-        <div class="cards__item text-center">
+        <div class="cards__item">
           <img src="images/cards-competence.png" class="cards__image" alt="Иллюзия компетентности">
-          <h3 class="cards__title rows__title semibold">Иллюзия компетентности</h3>
-          <p class="cards__description rows__description">
+          <h4 class="cards__title">Иллюзия компетентности</h4>
+          <p class="cards__description">
             Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
           </p>
         </div>
@@ -86,37 +87,31 @@
     </section>
 
     <section class="video">
-      <h2 class="page__title center-block semibold text-center mb-20">Видео нa TED</h2>
-      <div class="page__subtitle center-block text-center">Для тех, кто любит прокрастинировать</div>
-      <div class="video__iframes page_width_1100 center-block flex flex_wrap">
-        <div class="video__iframe">
-          <iframe
-            width="515"
-            height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <div class="video__iframe">
-          <iframe
-            width="515"
-            height="316"
-            src="https://www.youtube.com/embed/5MgBikgcWnY"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
-        </div>
+      <h2 class="section-title">Видео нa TED</h2>
+      <div class="section-subtitle">Для тех, кто любит прокрастинировать</div>
+      <div class="video__iframes">
+        <iframe
+          class="video__iframe"
+          src="https://www.youtube.com/embed/arj7oStGLkU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <iframe
+          class="video__iframe"
+          src="https://www.youtube.com/embed/5MgBikgcWnY"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
     </section>
 
     <section class="oakley">
-      <div class="flex flex_justify-content_space-between two-columns oakley_two-columns">
-        <h2 class="two-columns__title">История Барбары Оакли</h2>
-        <div class="two-columns__text flex flex_column">
-          <p>
+      <div class="two-columns">
+        <h2 class="two-columns__brief">История Барбары Оакли</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
             С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко
             не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно,
             что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику.
@@ -128,48 +123,48 @@
     </section>
 
     <section class="faynman">
-      <h2 class="faynman__title semibold center-block text-center">Метод Фейнмана</h2>
-      <h3 class="faynman__subtitle text-center">Выучить и не забыть.</h3>
-      <a href="#" class="faynman__link root_arrow-link">Подробнее</a>
+      <h2 class="faynman__title">Метод Фейнмана</h2>
+      <h3 class="faynman__subtitle">Выучить и не забыть.</h3>
+      <a href="#" class="faynman__link">Подробнее &rarr;</a>
     </section>
 
     <section class="digits">
-      <h2 class="page__title center-block semibold text-center mb-20">Цифры и факты</h2>
-      <div class="page__subtitle center-block text-center mb-60">Про учёбу и мозг</div>
-      <div class="page_width_1100 center-block flex flex_wrap flex_justify-content_space-between flex_row-gap_60 rows">
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">86 миллиардов</p>
-          <p class="rows__description">Число нейронов в мозге человека</p>
+      <h2 class="section-title">Цифры и факты</h2>
+      <h3 class="section-subtitle">Про учёбу и мозг</h3>
+      <div class="table">
+        <div class="table__cell">
+          <h4 class="table__heading">86 миллиардов</h4>
+          <p class="table__text">Число нейронов в мозге человека</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">2.1 миллиарда</p>
-          <p>Число нуждающихся в повышении квалификации</p>
-          <p class="rows__description">Всемирный Банк, 2017</p>
+        <div class="table__cell">
+          <h4 class="table__heading">2.1 миллиарда</h4>
+          <p class="table__text">Число нуждающихся в повышении квалификации</p>
+          <p class="table__text">Всемирный Банк, 2017</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">1000 терабайт</p>
-          <p>Объём памяти человека</p>
+        <div class="table__cell">
+          <h4 class="table__heading">1000 терабайт</h4>
+          <p class="table__text">Объём памяти человека</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">500 триллионов</p>
-          <p class="rows__description">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+        <div class="table__cell">
+          <h4 class="table__heading">500 триллионов</h4>
+          <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">420 миллионов</p>
-          <p class="rows__description">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-          <p class="rows__description">Всемирный Банк, 2017</p>
+        <div class="table__cell">
+          <h4 class="table__heading">420 миллионов</h4>
+          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+          <p class="table__text">Всемирный Банк, 2017</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">17–20 лет</p>
-          <p class="rows__description">Пик обучаемости</p>
+        <div class="table__cell">
+          <h4 class="table__heading">17–20 лет</h4>
+          <p class="table__text">Пик обучаемости</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">1885 год</p>
-          <p class="rows__description">Открытие кривой забывания</p>
+        <div class="table__cell">
+          <h4 class="table__heading">1885 год</h4>
+          <p class="table__text">Открытие кривой забывания</p>
         </div>
-        <div class="digits__item flex flex_column">
-          <p class="rows__title semibold">1889 год</p>
-          <p class="rows__description">Открытие условного рефлекса</p>
+        <div class="table__cell">
+          <h4 class="table__heading">1889 год</h4>
+          <p class="table__text">Открытие условного рефлекса</p>
         </div>
       </div>
     </section>
@@ -177,90 +172,98 @@
     <section class="khan">
       <div class="khan__container">
         <p class="khan__author">Салман Хан</p>
-        <h2 class="khan__title semibold">Весь мир — школа</h2>
+        <h2 class="khan__title">Весь мир — школа</h2>
         <p class="khan__quote">
           Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
           Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
           смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
         </p>
-        <p class="khan__quote-author semibold">Джордж Лукас</p>
+        <p class="khan__quote-author">Джордж Лукас</p>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img src="images/khan-book.jpg" class="khan__book-pic" alt="Салман Хан">
-          <a href="#" class="khan__buy-link root_arrow-link">Купить книгу</a>
+          <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
 
-    <section class="center-block kaufman kaufman_foreground">
-      <h2 class="page__title kaufman_foreground center-block semibold text-center mb-20">Цифры и факты</h2>
-      <div class="page__subtitle kaufman_foreground center-block text-center mb-80">Про учёбу и мозг</div>
-      <div class="kaufman_foreground page_width_1100 center-block flex flex_wrap flex_justify-content_space-between flex_row-gap_80 rows">
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">1</p>
-          <p>Выберите привлекательный проект.</p>
+    <section class="kaufman">
+      <h2 class="section-title section-title_theme_dark kaufman_foreground">Цифры и факты</h2>
+      <h3 class="section-subtitle section-subtitle_theme_dark kaufman_foreground">Про учёбу и мозг</h3>
+      <div class="table table_theme_dark kaufman_foreground">
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">1</h4>
+          <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">2</p>
-          <p>Сосредоточьтесь на каком-то одном навыке.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">2</h4>
+          <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">3</p>
-          <p>Определите целевой уровень мастерства.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">3</h4>
+          <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">4</p>
-          <p>Разбейте навык на элементы.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">4</h4>
+          <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">5</p>
-          <p>Приготовьте всё необходимое для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">5</h4>
+          <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">6</p>
-          <p>Устраните препятствия для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">6</h4>
+          <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">7</p>
-          <p>Выделите специальное время для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">7</h4>
+          <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">8</p>
-          <p>Создайте быстрые петли обратной связи.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">8</h4>
+          <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">9</p>
-          <p>Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">9</h4>
+          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
         </div>
-        <div class="kaufman__item">
-          <p class="rows__title semibold mb-20">10</p>
-          <p>Уделяйте внимание количеству и скорости.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h4 class="table__heading table__heading_theme_dark">10</h4>
+          <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </div>
       </div>
-      <img class="kaufman__triangle rotation__spinning-infinite" src="images/triangle.svg" alt="triangle">
+      <div class="kaufman__triangle rotation"></div>
     </section>
 
     <section class="resources">
-      <h2 class="page__title center-block semibold text-center mb-20">Цифры и факты</h2>
-      <div class="page__subtitle center-block text-center mb-80">Про учёбу и мозг</div>
-      <div class="page_width_1100 center-block flex flex_wrap flex_justify-content_space-between">
-        <img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="arzamas">
-        <img class="resources__logo" src="images/logo/resources-n1.svg" alt="n1">
-        <img class="resources__logo" src="images/logo/resources-strelka.svg" alt="strelka">
-        <img class="resources__logo" src="images/logo/resources-polka.svg" alt="polka">
+      <h2 class="section-title">Цифры и факты</h2>
+      <div class="section-subtitle">Про учёбу и мозг</div>
+      <div class="resources__logo-zone">
+        <a href="#" class="resources__logo">
+          <img src="images/logo/resources-arzamas.svg" alt="arzamas">
+        </a>
+        <a href="#" class="resources__logo">
+          <img src="images/logo/resources-n1.svg" alt="n1">
+        </a>
+        <a href="#" class="resources__logo">
+          <img src="images/logo/resources-strelka.svg" alt="strelka">
+        </a>
+        <a href="#" class="resources__logo">
+          <img src="images/logo/resources-polka.svg" alt="polka">
+        </a>
       </div>
     </section>
 
   </main>
   <footer class="footer">
-    <div class="footer__columns flex flex_justify-content_space-between">
-      <div class="footer__column_content_copyright flex flex_column flex_justify-content_space-between">
-        <img src="images/logo_white.svg" alt="логотип" class="logotype logotype_place_footer" />
-        <p class="footer__author">&copy; Ахметбай Дияс</p>
+    <div class="footer__columns">
+      <div class="footer__column footer__column_content_copyright">
+        <img src="images/logo_white.svg" alt="логотип" class="logo logo_place_footer" />
+        <h2 class="footer__author">&copy; Ахметбай Дияс</h2>
       </div>
-      <div class="footer__column_content_info">
-        <p class="footer__column-heading semibold">О Практикуме</p>
-        <ul class="footer__column-links flex flex_column">
+      <nav class="footer__column footer__column_content_info">
+        <h2 class="footer__column-heading">О Практикуме</h2>
+        <ul class="footer__column-links">
           <li>
             <a href="#" class="footer__column-link">Главная</a>
           </li>
@@ -271,30 +274,30 @@
             <a href="#" class="footer__column-link">Наставники</a>
           </li>
         </ul>
-      </div>
-      <div class="footer__column_content_social">
-        <p class="footer__column-heading semibold">Соцсети</p>
-        <ul class="footer__column-links flex flex_column">
+      </nav>
+      <nav class="footer__column footer__column_content_social">
+        <h2 class="footer__column-heading">Соцсети</h2>
+        <ul class="footer__column-links">
           <li>
-            <a href="#" class="footer__column-link flex flex_align-items_center">
+            <a href="#" class="footer__column-link">
               <img class="footer__social-icon" src="images/facebook_white.svg" alt="facebook">
               Facebook
             </a>
           </li>
           <li>
-            <a href="#" class="footer__column-link flex flex_align-items_center">
+            <a href="#" class="footer__column-link">
               <img class="footer__social-icon" src="images/vk_white.svg" alt="vk">
               ВКонтакте
             </a>
           </li>
           <li>
-            <a href="#" class="footer__column-link flex flex_align-items_center">
+            <a href="#" class="footer__column-link">
               <img class="footer__social-icon" src="images/instagram_white.svg" alt="instagram">
               Instagram
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </footer>
 </body>

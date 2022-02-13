@@ -3,7 +3,11 @@
   font-size: 18px;
   color: var(--white-color);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: opacity .1s linear;
 }
+
 .footer__column-link:hover {
-  text-decoration: underline;
+  opacity: .5;
 }

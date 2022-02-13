@@ -3,8 +3,9 @@
   font-size: 30px;
   color: var(--blue-color);
   text-decoration: none;
+  transition: opacity .1s linear;
 }
 
 .khan__buy-link:hover {
-  text-decoration: underline;
+  opacity: .5;
 }
