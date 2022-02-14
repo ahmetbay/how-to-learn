@@ -4,4 +4,5 @@
   padding: 60px 0 40px;
   background: var(--gray-color);
   color: var(--white-color);
+  display: flex;
 }
