@@ -3,4 +3,5 @@
   background: var(--gray-color);
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
